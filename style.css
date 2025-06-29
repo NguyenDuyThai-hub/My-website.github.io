@@ -1,0 +1,91 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #bab1f0;
+    background: #bab1f0;
+    background: linear-gradient(90deg, rgba(186, 177, 240, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(37, 75, 230, 1) 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: white;
+    max-width: 450px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4f46e5;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.title {
+    margin: 5px 0 15px 0;
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.bio {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    color: #4f46e5;
+    font-size: 1.75rem;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.skills-section {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #e5e7eb;
+}
+.skills-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #374151;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.skill-item {
+    background-color: #eef2ff;
+    color: #4338ca;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.skill-item:hover {
+    background-color: #c7d2fe;
+    transform: scale(1.05);
+}
